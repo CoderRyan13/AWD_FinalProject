@@ -1,0 +1,43 @@
+h1 {
+    padding-left: 3cm;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("game.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+form {
+    border-radius: 5px;
+    background-color: #A9A9A9;
+    padding: 20px;
+    width: 300px;
+}
+
+input {
+    display: block;
+    width: 260px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+}
+
+button {
+    width: 300px;
+    background-color: #397cd5;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
